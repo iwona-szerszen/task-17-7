@@ -1,0 +1,9 @@
+html
+	head
+		title User logged
+	body
+		if (user.displayName)
+			h2 Hello, #{user.displayName}
+		else
+			p Please, go back to 
+				a(href="/") Homepage
