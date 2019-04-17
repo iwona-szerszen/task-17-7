@@ -37,4 +37,8 @@ app.get('/auth/google/callback', passport.authenticate('google', {successRedirec
 
 app.get('/logged', (req, res) => res.render('logged', {user: googleProfile}));
 
-app.listen(3000);
+const server = app.listen(3000, 'localhost', () => {
+	const host = server.address().address;
+	const port = server.address().port;
+	console.log(`\nThis application is listening on the http://${host}:${port}`);
+});
