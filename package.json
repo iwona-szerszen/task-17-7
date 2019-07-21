@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/iwona-szerszen/task-17-7#readme",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "passport": "^0.4.0",
-    "passport-google-oauth": "^1.0.0",
-    "pug": "^2.0.3"
+    "passport-google-oauth": "^2.0.0",
+    "pug": "^2.0.4"
   }
 }
